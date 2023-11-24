@@ -9,8 +9,9 @@ What is saved:
 
 Please refer to:
 
-- [linux](https://github.com/pacifiquem/lin.git#Linux) : For linux distros. ex: Ubuntu, Fedora ...
-- [windows](https://github.com/pacifiquem/lin.git#Windows) : For windows. `(Comming Soon)``.
+- [linux](https://github.com/pacifiquem/lin/blob/main/install.md#Linux) : For linux distros. ex: Ubuntu, Fedora ...
+- Windows ``(Comming Soon)``.
+<!-- - [windows](https://github.com/pacifiquem/lin.git#Windows) : For windows. ``(Comming Soon)``. -->
 
 ## Usage
 
