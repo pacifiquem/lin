@@ -10,7 +10,20 @@ What is saved:
 Please refer to:
 
 - [linux](https://github.com/pacifiquem/lin.git#Linux) : For linux distros. ex: Ubuntu, Fedora ...
-- [windows](https://github.com/pacifiquem/lin.git#Windows) : For windows.
+- [windows](https://github.com/pacifiquem/lin.git#Windows) : For windows. `(Comming Soon)``.
+
+## Usage
+
+Structure: ```lin --option file_location```
+
+Options:
+
+- `--help, -h`: Show help.
+- `--all, -a` : Save both commands and their output.
+- `--output, -o` : Save only the output of commands.
+- `--commands, -c` : Save only commands.
+
+Default option is `--all`.
 
 ## Contributing
 
