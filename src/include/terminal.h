@@ -5,6 +5,6 @@
 
 /* lin terminal */
 extern void terminal(Args lin_args);
-extern char* get_terminal_prefix(const char* cwd);
+extern char *get_terminal_prefix(const char *cwd);
 
-#endif //LIN_TERMINAL
+#endif // LIN_TERMINAL
