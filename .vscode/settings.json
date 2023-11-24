@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "termios.h": "c",
+    "unistd.h": "c",
+    "wait.h": "c",
+    "string.h": "c",
+    "history.h": "c"
+  }
+}
