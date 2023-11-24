@@ -9,8 +9,8 @@ What is saved:
 
 Please refer to:
 
-- [linux](https://github.com/pacifiquem/lin/blob/main/install.md#Linux) .ex: Ubuntu, Fedora ...
-- [MacOS](https://github.com/pacifiquem/lin/blob/main/install.md#MacOS)
+- [Linux Installation guide](https://github.com/pacifiquem/lin/blob/main/install.md#Linux)
+- [MacOS Installation guide](https://github.com/pacifiquem/lin/blob/main/install.md#MacOS)
 - Windows ``(Comming Soon)``.
 <!-- - [windows](https://github.com/pacifiquem/lin.git#Windows) : For windows. ``(Comming Soon)``. -->
 
