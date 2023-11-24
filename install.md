@@ -10,6 +10,3 @@ To install ``lin`` on any linux distro, do this:
 2. Run ``make install``.
 
 🎉Now ```lin``` is available globally.🎉
-
-## Windows
-
