@@ -31,6 +31,7 @@ void save_commands_and_output(const char *output, const char *command, const Arg
     {
         fprintf(file, "Command: \n\t%s \nOutput:\n\t%s", command, output); // Save both command and output with newline
     }
+    fprintf(file, "%s\n", "------------------");
 
     fclose(file);
 
@@ -42,6 +43,8 @@ int execute_command(const char *command, Args lin_args) {
     FILE *fp;
     char output[MAX_OUTPUT_SIZE];
     char aggregated_output[MAX_OUTPUT_SIZE * 24]; // maximum aggregated output we can store
+
+    if (strcmp(command, "exit") == 0) exit(0);
 
     // Open a pipe to the command
     fp = popen(command, "r");
