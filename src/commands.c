@@ -44,6 +44,8 @@ int execute_command(const char *command, Args lin_args) {
     char output[MAX_OUTPUT_SIZE];
     char aggregated_output[MAX_OUTPUT_SIZE * 24]; // maximum aggregated output we can store
 
+    if (strcmp(command, "exit") == 0) exit(0);
+
     // Open a pipe to the command
     fp = popen(command, "r");
     if (fp == NULL) {
