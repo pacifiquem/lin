@@ -31,6 +31,7 @@ void save_commands_and_output(const char *output, const char *command, const Arg
     {
         fprintf(file, "Command: \n\t%s \nOutput:\n\t%s", command, output); // Save both command and output with newline
     }
+    fprintf(file, "%s\n", "------------------");
 
     fclose(file);
 
