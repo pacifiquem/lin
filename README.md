@@ -27,6 +27,8 @@ Options:
 
 Default option is `--all`.
 
+Exit by typing `exit` or `lin exit` in a session.
+
 ## Contributing
 
 Please refer to [contributing.md](https://github.com/pacifiquem/lin/blob/main/contributing.md) for contribution guide.
