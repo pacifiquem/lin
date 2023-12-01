@@ -2,4 +2,4 @@
 *.out
 *.exe
 /build
-commands.txt
+*.txt
