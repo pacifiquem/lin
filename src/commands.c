@@ -74,8 +74,12 @@ int execute_command(const char *command, Args lin_args)
             perror("chdir");
             return -1;
         }
-
-        return 0; // No need to proceed further if it's a cd command
+        
+        /*
+            No need to proceed further if it's a cd command
+            We won't save any info for cd commands
+        */
+        return 0;
     }
     else
     {
